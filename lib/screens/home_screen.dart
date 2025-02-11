@@ -13,7 +13,7 @@ class HomeScreen extends StatelessWidget {
   final AudioPlayerService _audioPlayerService = AudioPlayerService();
 
   final uploadService = UploadService();
-  final uploadUrl = 'https://example.com/upload.php'; // آدرس اسکریپت آپلود
+  final uploadUrl = 'https://paletstore.ir/upload.php'; // آدرس اسکریپت آپلود
 
   Future<void> _downloadMusic(BuildContext context, String url) async {
     if (url.isEmpty) {
